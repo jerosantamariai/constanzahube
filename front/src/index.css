@@ -1,7 +1,7 @@
 /* INICIO NAVBAR */
 
 nav .logo {
-    width: 1%;
+    width: 10%;
     height: auto;
 }
 
@@ -11,7 +11,19 @@ nav .nav-link {
 
 /* FIN NAVBAR */
 
+.acercaDeMi .yofoto {
+    width: 40%;
+}
 
+.acercaDeMi .mensaje {
+    width: 50%;
+
+}
+
+.acercaDeMi .fotoConiHube {
+    width: 95%;
+    align-content: center;
+}
 
 /* INICIO FOOTER */
 

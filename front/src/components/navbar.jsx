@@ -6,7 +6,7 @@ const Navbar = props => {
     return (
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
             <div className="container-fluid">
-                <Link className="navbar-brand" to="/">algo</Link>
+                <Link className="navbar-brand" to="/"><img src={Logo} alt="Logo" className="logo" style={{width: 150}} /></Link>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                 </button>
@@ -16,7 +16,7 @@ const Navbar = props => {
                             <Link className="nav-link" aria-current="page" to="/acercademi">ACERCA DE MÍ</Link>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link" to="/trabajoconstituyente">TRABAJO CONSTITUYENTE</Link>
+                            <Link className="nav-link" to="/trabajoconstituyente">UNA CONSTITUCION PARA TI</Link>
                         </li>
                         <li className="nav-item">
                             <Link className="nav-link" to="/prensa">NOTICIAS/PRENSA</Link>
