@@ -22,10 +22,10 @@ const Navbar = props => {
                             <Link className="nav-link" to="/que_voy_a_defender">QUE VOY A DEFENDER</Link>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link" to="/prensa">NOTICIAS/PRENSA</Link>
+                            <Link className="nav-link" to="/voto_seguro">#TuVotoSeguro</Link>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link" to="/videos">VIDEOS</Link>
+                            <Link className="nav-link" to="/terreno">TERRENO</Link>
                         </li>
                     </ul>
                     <ul className="navbar-nav ml-auto">

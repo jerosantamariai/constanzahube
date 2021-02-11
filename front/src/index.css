@@ -33,6 +33,23 @@ nav .nav-link {
     text-align: justify;
 }
 
+.terreno {
+    min-height: 400px;
+}
+
+.formContainer {
+    background-image: url('https://picsum.photos/id/0/2000/1000');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 50px 0;
+}
+
+.subForm {
+    background-color: rgb(201, 201, 201, 0.7);
+}
+
+
 /* INICIO FOOTER */
 
 footer .fa-instagram {
