@@ -40,11 +40,11 @@ ETAPA 1: CREACION DE LA APLICACION
 ETAPA 2: CONFIGURACIONES INICIALES DE LOS ARCHIVOS    
     6. En index.js:
         - Configurar importaciones en index.js
-            - import 'bootstrap/dist/css/bootstrap.min.css';
-            - import '@fortawesome/fontawesome-free/css/all.css';
-            - import 'jquery';
-            - import 'popper.js';
-            - import 'bootstrap';
+            import 'bootstrap/dist/css/bootstrap.min.css';
+            import '@fortawesome/fontawesome-free/css/all.css';
+            import 'jquery';
+            import 'popper.js';
+            import 'bootstrap';
         - Modificar la importacion de app.js (borrado en 3) y configurarlo por layouts (agregado en 5)
         y en el cuerpo.
 
