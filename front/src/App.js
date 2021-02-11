@@ -7,10 +7,10 @@ import AcercaDeMi from './views/acercademi';
 import Home from './views/home';
 import Login from './views/login';
 import notFound from './views/notfound';
-import Prensa from './views/prensa';
 import QueDefendere from './views/quedefendere';
+import Terreno from './views/terreno';
 import TrabajoConstituyente from './views/trabajoconstituyente';
-import Videos from './views/videos';
+import VotoSeguro from './views/votoseguro';
 
 
 function App() {
@@ -23,8 +23,8 @@ function App() {
           <Route exact path="/acercademi" component={AcercaDeMi} />
           <Route exact path="/trabajoconstituyente" component={TrabajoConstituyente} />
           <Route exact path="/que_voy_a_defender" component={QueDefendere} />
-          <Route exact path="/prensa" component={Prensa} />
-          <Route exact path="/videos" component={Videos} />
+          <Route exact path="/voto_seguro" component={VotoSeguro} />
+          <Route exact path="/terreno" component={Terreno} />
           <Route exact path="/login" component={Login} />
           <Route exact path="/" component={Home} />
           <Route component={notFound} />
