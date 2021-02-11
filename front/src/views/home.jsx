@@ -1,8 +1,9 @@
 import React from 'react';
+import UnderConstruction from '../img/underconstruction.jpg'
 
 const Home = props => {
     return (
-        <h1>Home</h1>
+        <img src={UnderConstruction} alt="Página en construcción" className="w-100" />
     );
 }
 
