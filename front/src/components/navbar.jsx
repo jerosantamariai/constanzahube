@@ -19,6 +19,9 @@ const Navbar = props => {
                             <Link className="nav-link" to="/trabajoconstituyente">UNA CONSTITUCION PARA TI</Link>
                         </li>
                         <li className="nav-item">
+                            <Link className="nav-link" to="/que_voy_a_defender">QUE VOY A DEFENDER</Link>
+                        </li>
+                        <li className="nav-item">
                             <Link className="nav-link" to="/prensa">NOTICIAS/PRENSA</Link>
                         </li>
                         <li className="nav-item">

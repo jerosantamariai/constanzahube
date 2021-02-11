@@ -25,6 +25,14 @@ nav .nav-link {
     align-content: center;
 }
 
+.trabajoConstituyente p {
+    text-align: justify;
+}
+
+.quedefendere p {
+    text-align: justify;
+}
+
 /* INICIO FOOTER */
 
 footer .fa-instagram {
