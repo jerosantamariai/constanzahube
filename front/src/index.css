@@ -17,7 +17,7 @@ nav .nav-link {
 
 .acercaDeMi .mensaje {
     width: 50%;
-
+    text-align: justify;
 }
 
 .acercaDeMi .fotoConiHube {

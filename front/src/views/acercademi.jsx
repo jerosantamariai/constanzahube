@@ -3,8 +3,8 @@ import ConiHube from '../img/conihube.jpg';
 
 const AcercaDeMi = props => {
     return (
-        <div className="acercaDeMi d-flex justify-content-center">
-            <div className="yofoto my-auto py-4">
+        <div className="acercaDeMi d-flex justify-content-center py-5">
+            <div className="yofoto my-auto">
                 <img src={ConiHube} alt="Constanza Hube" className="fotoConiHube" />
             </div>
             <div className="mensaje">
