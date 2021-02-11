@@ -25,4 +25,18 @@ footer .fa-facebook:hover {
     color: rgb(59, 89, 152, 0.8);
 }
 
+footer .firma {
+    font-size: 0.8em;    
+}
+
+footer .firma a {
+    text-decoration: none;  
+    color: black;
+}
+
+footer .firma a:hover {
+    text-decoration: none;  
+    color: rgb(0, 94, 161);
+}
+
 /* FIN FOOTER */
