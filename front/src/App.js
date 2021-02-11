@@ -8,6 +8,7 @@ import Home from './views/home';
 import Login from './views/login';
 import notFound from './views/notfound';
 import Prensa from './views/prensa';
+import QueDefendere from './views/quedefendere';
 import TrabajoConstituyente from './views/trabajoconstituyente';
 import Videos from './views/videos';
 
@@ -21,6 +22,7 @@ function App() {
         <Switch>
           <Route exact path="/acercademi" component={AcercaDeMi} />
           <Route exact path="/trabajoconstituyente" component={TrabajoConstituyente} />
+          <Route exact path="/que_voy_a_defender" component={QueDefendere} />
           <Route exact path="/prensa" component={Prensa} />
           <Route exact path="/videos" component={Videos} />
           <Route exact path="/login" component={Login} />
