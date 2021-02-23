@@ -1,4 +1,24 @@
-/* INICIO NAVBAR */
+@font-face {
+    font-family: kastelovblack;
+    src: url(fonts/kastelov-black.otf) format("opentype");
+}
+
+@font-face {
+    font-family: kastelovregular;
+    src: url(fonts/kastelov-regular.otf) format("opentype");
+}
+
+body {
+    background-color: rgb(238, 238, 238);
+    color: rgb(51,51,51);
+}
+
+/* ########### INICIO NAVBAR ########### */
+
+nav {
+    height: 80px;
+    background-color: rgb(238, 238, 238);
+}
 
 nav .logo {
     width: 10%;
@@ -7,23 +27,82 @@ nav .logo {
 
 nav .nav-link {
     font-size: 1em;
+    color: rgb(51,51,51);
+    font-family: kastelovblack;
 }
 
-/* FIN NAVBAR */
-
-.acercaDeMi .yofoto {
-    width: 40%;
+nav .nav-link:hover {
+    font-family: kastelovblack;
+    font-size: 1em;
+    color: rgb(254, 0, 0) !important;
+    border-bottom: 5px solid rgb(0, 62, 126) !important;
 }
 
-.acercaDeMi .mensaje {
-    width: 50%;
-    text-align: justify;
+/* ########### FIN NAVBAR ########### */
+
+/* ########### INICIO HOME ########### */
+
+.home {
+    background-color: rgb(238, 238, 238);
+    color: rgb(51,51,51);
 }
 
-.acercaDeMi .fotoConiHube {
-    width: 95%;
-    align-content: center;
+.home .coniprincipal {
+    margin-left: 100px;
+    margin-top: 70px;
 }
+
+.home .logo {
+    width: 250px;
+    height: auto;
+    margin-left: 100px;
+}
+
+.home .logoquieroserconstituyente {
+    width: 700px;
+    height: auto;
+    margin-top: 150px;
+    margin-left: 100px;
+}
+
+.home .saludo {
+    width: 360px;
+    height: auto;
+    margin-left: 120px;
+}
+
+.home .logoudi {
+    width: 120px;
+    height: auto;
+    margin-left: 700px;
+}
+
+/* ########### FIN HOME ########### */
+
+/* ########### INICIO ACERCA DE MI ########### */
+
+
+
+.mens1 {
+    padding-top: 40px;
+    margin-left: 85px;
+    font-family: kastelovregular;
+}
+
+.mens2 {
+    margin: 0px 100px;
+    font-family: kastelovregular;
+    padding-top: 10px;
+}
+
+.fotoConiHube {
+    width: 78%;
+    height: auto;
+    margin-right: -70px;
+}
+
+/* ########### INICIO ACERCA DE MI ########### */
+
 
 .trabajoConstituyente p {
     text-align: justify;
