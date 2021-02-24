@@ -7,6 +7,7 @@ import LogoQuieroSerConstiuyente from '../img/logoquieroserconstituyente.png'
 import LogoUdi from '../img/logoudi.png'
 import TrabajoConstituyente from './trabajoconstituyente';
 import Pensamiento from './pensamiento';
+import VotoSeguro from './votoseguro';
 
 const Home = props => {
     return (
@@ -27,7 +28,8 @@ const Home = props => {
             <AcercaDeMi />
             <TrabajoConstituyente />
             <Pensamiento />
-            <Form />
+            <VotoSeguro />
+            {/* <Form /> */}
         </div>
     );
 }
