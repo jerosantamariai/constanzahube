@@ -46,7 +46,7 @@ const Pensamiento = props => {
                     </div>
                 </div>
             </div>
-            <img src={Cierre} alt="una_constitucion_para_ti" className="cierrepiensa" />
+            <img src={Cierre} alt="una_constitucion_para_ti" className="cierrepiensa pb-5" />
         </>
     );
 }

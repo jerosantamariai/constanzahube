@@ -169,9 +169,58 @@ nav .nav-link:hover {
     margin-right: auto;
 }
 
-
 /* ########### FIN PENSAMIENTO ########### */
 
+/* ########### INICIO TUVOTOSEGURO ########### */
+
+.votoseguro h1, p, span {
+    font-family: kastelovregular;
+}
+
+.votoseguro .azul {
+    color: rgb(0, 62, 126);
+    text-align: end;
+}
+
+.votoseguro .rojo {
+    color: rgb(254, 0, 0) !important;
+    text-align: end;
+}
+
+.votoseguro h5 {
+    margin: 0;
+}
+
+.votoseguro .tvsinicio {
+    border-left: 1px solid rgb(0, 62, 126);
+    border-bottom: 1px solid rgb(0, 62, 126);
+    padding: 30px;
+}
+
+.votoseguro .tvscentro {
+    border-left: 1px solid rgb(0, 62, 126);
+    padding: 30px;
+}
+
+.votoseguro .tvscentroesp {
+    border-left: 1px solid rgb(0, 62, 126);
+    border-top: 1px solid rgb(0, 62, 126);
+    border-bottom: 1px solid rgb(0, 62, 126);
+    padding: 30px;
+}
+
+.votoseguro .tvsfin {
+    border-left: 1px solid rgb(0, 62, 126);
+    border-top: 1px solid rgb(0, 62, 126);
+    padding: 30px;
+}
+
+/* ########### FIN TUVOTOSEGURO ########### */
+
+/* ########### INICIO TUVOTOSEGURO ########### */
+
+
+/* ########### FIN TUVOTOSEGURO ########### */
 
 .trabajoConstituyente p {
     text-align: justify;
@@ -200,6 +249,14 @@ nav .nav-link:hover {
 
 /* INICIO FOOTER */
 
+footer .headfoot {
+    text-align: center;
+    color: rgb(0, 62, 126);
+    font-family: kastelovregular;
+}
+
+
+
 footer .fa-instagram {
     color: rgb(125,52,175);
 }
@@ -212,16 +269,24 @@ footer .fa-facebook {
     color: rgb(59, 89, 152);
 }
 
+footer .fa-whatsapp-square {
+    color: rgb(0, 211, 95);
+}
+
 footer .fa-instagram:hover {
-    color: rgb(125,52,175, 0.8);
+    color: rgb(125,52,175, 0.6);
 }
 
 footer .fa-twitter-square:hover {
-    color: rgb(0, 172, 238, 0.8);
+    color: rgb(0, 172, 238, 0.6);
 }
 
 footer .fa-facebook:hover {
-    color: rgb(59, 89, 152, 0.8);
+    color: rgb(59, 89, 152, 0.6);
+}
+
+footer .fa-whatsapp-square:hover {
+    color: rgb(0, 211, 95, 0.6);
 }
 
 footer .firma {
@@ -236,6 +301,20 @@ footer .firma a {
 footer .firma a:hover {
     text-decoration: none;  
     color: rgb(0, 94, 161);
+}
+
+footer .cierrefooter {
+    width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer .cuentocontigo {
+    width: 60%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* FIN FOOTER */
