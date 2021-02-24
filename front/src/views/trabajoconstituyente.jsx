@@ -42,23 +42,25 @@ const TrabajoConstituyente = props => {
                     <div className="pensamientocont d-flex">
                         <p>comprender que todos estamos llamados a comprometernos con las soluciones a los problemas de Chile hoy en día. Crear, emprender y actuar deben ser cosas que podamos hacer con plena confianza en el Chile del mañana.</p>
                     </div>
-                <div className="pensamiento d-flex">
-                    <img src={CuatroPensamiento} alt="cuarto_pensamiento" className="cuatropensamiento" />
-                    <div>
-                        <h6>UNA QUE PONGA AL ESTADO AL SERVICIO DE LOS DEMÁS.</h6>
-                        <p>El Estado está al servicio de la persona humana, y no ella al servicio del Estado. Por eso, todos sus servicios, acciones y decisiones se deben tomar pensando en lo que es mejor para los chilenos, sus necesidades, sus sueños y esperanzas, su seguridad y siempre su dignidad.</p>
+                    <div className="pensamiento d-flex">
+                        <img src={CuatroPensamiento} alt="cuarto_pensamiento" className="cuatropensamiento" />
+                        <div>
+                            <h6>UNA QUE PONGA AL ESTADO AL SERVICIO DE LOS DEMÁS.</h6>
+                            <p>El Estado está al servicio de la persona humana, y no ella al servicio del Estado. Por eso, todos sus servicios, acciones y decisiones se deben tomar pensando en lo que es mejor para los chilenos, sus necesidades, sus sueños y esperanzas, su seguridad y siempre su dignidad.</p>
+                        </div>
                     </div>
-                </div>
-                <div className="pensamiento d-flex">
-                    <img src={CincoPensamiento} alt="quinto_pensamiento" className="cincopensamiento" />
-                    <div>
-                        <h6>UNA QUE PROMUEVA LA ACCIÓN DE LOS PRIVADOS.</h6>
-                        <p>Tú, yo y cualquier persona debe saber que sus decisiones, motivaciones y acciones tienen un impacto real en la sociedad. En un país donde existen urgencias sociales reales, el Estado debe comprender que todos estamos llamados a comprometernos con las soluciones a los problemas de Chile hoy en día. Crear, emprender y actuar deben ser cosas que podamos hacer con plena confianza en el Chile del mañana.</p>
+                    <div className="pensamiento d-flex">
+                        <img src={CincoPensamiento} alt="quinto_pensamiento" className="cincopensamiento" />
+                        <div>
+                            <h6>UNA QUE PROMUEVA LA ACCIÓN DE LOS PRIVADOS.</h6>
+                            <p>Tú, yo y cualquier persona debe saber que sus decisiones, motivaciones y acciones tienen un impacto real en la sociedad. En un país donde existen urgencias sociales reales, el Estado debe comprender que todos estamos llamados a comprometernos con las soluciones a los problemas de Chile hoy en día. Crear, emprender y actuar deben ser cosas que podamos hacer con plena confianza en el Chile del mañana.</p>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-
+            <div className="row ml-3">
+                <h3 className="blueh3">UNA CONSTITUCIÓN QUE PONGA A <span className="redh3">LA PERSONA EN EL CENTRO</span></h3>
+            </div>
         </div >
     );
 }
