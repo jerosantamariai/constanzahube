@@ -15,7 +15,7 @@ const Navbar = props => {
                             <a className="nav-link" href="#acercademi">ACERCA DE MÍ</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#constituciondelfuturo">CONSTITUCIÓN DEL FUTURO</a>
+                            <a className="nav-link" href="#constituciondefuturo">CONSTITUCIÓN DEL FUTURO</a>
                         </li>
                         <li className="nav-item">
                             <a className="nav-link" href="#pensamiento">PENSAMIENTO</a>

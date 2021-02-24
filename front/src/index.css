@@ -101,7 +101,39 @@ nav .nav-link:hover {
     margin-right: -70px;
 }
 
-/* ########### INICIO ACERCA DE MI ########### */
+.cierreacercademi {
+    width: 75%;
+    height: auto;
+}
+
+/* ########### FIN ACERCA DE MI ########### */
+
+/* ########### INICIO CONSTITUCION DE FUTURO ########### */
+
+.constituciondefuturo {
+    width: 100%;
+}
+
+.pensamiento {
+    font-family: kastelovregular;
+}
+
+.pensamiento img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.pensamiento h6 {
+    color: rgb(254, 0, 0) !important;
+}
+
+.pensamientocont {
+    margin-left: 40px;
+}
+
+/* ########### FIN CONSTITUCION DE FUTURO ########### */
+
 
 
 .trabajoConstituyente p {

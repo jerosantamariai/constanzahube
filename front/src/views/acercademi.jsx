@@ -1,9 +1,10 @@
 import React from 'react';
 import ConiHube from '../img/conihube.jpg';
+import Cierre from '../img/cierreacercademi.png';
 
 const AcercaDeMi = props => {
     return (
-        <div className="acercaDeMi">
+        <div className="acercaDeMi" id="acercademi">
             <div className="yo-top d-flex">
                 <div className="col-5 mens1">
                     <p>Tengo 34 años, soy abogada y profesora de Derecho Constitucional. Soy candidata a la Convención porque quiero asegurarme de que tú tengas una buena constitución.</p>
@@ -18,6 +19,9 @@ const AcercaDeMi = props => {
             <div className="mens2">
                 <p>Soy una mujer joven, valiente y preparada para enfrentar lo que se viene. Si me apoyas, pelearé contra todas las ideologías que quieren destruir la familia y que buscan imponer una visión de sociedad en la que las personas son vistas como meros individuos. Yo en cambio, creo fielmente en las personas y en su potencial creador y transformador. Creo en una economía libre, en la defensa de la propiedad privada y en la existencia del Tribunal Constitucional. Y creo firmemente en que el Estado está al servicio de la persona humana.</p>
                 <p>Soy Constanza Hube y quiero ser constituyente. Y con tu apoyo, sumado a mi humilde experiencia, podremos volver realidad el sueño de miles de chilenos: que el país tenga una constitución de futuro y que tú tengas una buena constitución para ti. </p>
+            </div>
+            <div className="cierre d-flex justify-content-center py-5">
+                <img src={Cierre} alt="una_constitucion_para_ti" className="cierreacercademi"/>
             </div>
         </div>
     );
