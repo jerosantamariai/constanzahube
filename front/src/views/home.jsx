@@ -6,6 +6,7 @@ import Logo from '../img/logo.png'
 import LogoQuieroSerConstiuyente from '../img/logoquieroserconstituyente.png'
 import LogoUdi from '../img/logoudi.png'
 import TrabajoConstituyente from './trabajoconstituyente';
+import Pensamiento from './pensamiento';
 
 const Home = props => {
     return (
@@ -25,6 +26,7 @@ const Home = props => {
             </div>
             <AcercaDeMi />
             <TrabajoConstituyente />
+            <Pensamiento />
             <Form />
         </div>
     );
