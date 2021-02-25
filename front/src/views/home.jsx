@@ -8,6 +8,7 @@ import LogoUdi from '../img/logoudi.png'
 import TrabajoConstituyente from './trabajoconstituyente';
 import Pensamiento from './pensamiento';
 import VotoSeguro from './votoseguro';
+import Terreno from './terreno';
 
 const Home = props => {
     return (
@@ -29,6 +30,7 @@ const Home = props => {
             <TrabajoConstituyente />
             <Pensamiento />
             <VotoSeguro />
+            <Terreno />
             {/* <Form /> */}
         </div>
     );
