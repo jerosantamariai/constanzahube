@@ -39,11 +39,11 @@ const Navbar = props => {
                             <a className="nav-link" href="#hablemos">HABLÉMOS</a>
                         </li> */}
                     </ul>
-                    {/* <ul className="navbar-nav ml-auto">
+                    <ul className="navbar-nav ml-auto">
                         <li className="nav-item">
-                            <Link className="nav-link btn btn-outline-info rounded-pill" to="/login">Login</Link>
+                            <Link className="nav-link1 btn btn-outline-info rounded-pill" to="/login">Login</Link>
                         </li>
-                    </ul> */}
+                    </ul>
                 </div>
             </div>
         </nav>

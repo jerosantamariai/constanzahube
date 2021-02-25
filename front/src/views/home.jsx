@@ -30,7 +30,7 @@ const Home = props => {
             <TrabajoConstituyente />
             <Pensamiento />
             <VotoSeguro />
-            <Terreno />
+            <Terreno /> 
             {/* <Form /> */}
         </div>
     );
