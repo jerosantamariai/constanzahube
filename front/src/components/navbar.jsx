@@ -24,20 +24,20 @@ const Navbar = props => {
                             <a className="nav-link" href="#tuvotoseguro">#TUVOTOSEGURO</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#enterreno">EN TERRENO</a>
+                            <a className="nav-link" href="#terreno">EN TERRENO</a>
                         </li>
-                        <li className="nav-item">
+                        {/* <li className="nav-item">
                             <a className="nav-link" href="#prensa">PRENSA</a>
-                        </li>
+                        </li> */}
                         <li className="nav-item">
                             <a className="nav-link" href="#sigueme">SÍGUEME</a>
                         </li>
-                        <li className="nav-item">
+                        {/* <li className="nav-item">
                             <a className="nav-link" href="#apoyama">APÓYAME</a>
-                        </li>
-                        <li className="nav-item">
+                        </li> */}
+                        {/* <li className="nav-item">
                             <a className="nav-link" href="#hablemos">HABLÉMOS</a>
-                        </li>
+                        </li> */}
                     </ul>
                     {/* <ul className="navbar-nav ml-auto">
                         <li className="nav-item">

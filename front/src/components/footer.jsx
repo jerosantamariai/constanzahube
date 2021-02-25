@@ -5,7 +5,7 @@ import CierreFooter from '../img/cierreacercademi.png';
 const Footer = props => {
     return (
         <footer>
-            <div className="headfoot py-5">
+            <div className="headfoot py-5" id="sigueme">
                 <h3>¡SÍGUEME! ¡HABLEMOS!</h3>
             </div>
 
