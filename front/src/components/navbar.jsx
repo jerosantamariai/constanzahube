@@ -4,7 +4,7 @@ import Logo from '../img/logo.png';
 
 const Navbar = props => {
     return (
-        <nav className="navbar navbar-expand-lg">
+        <nav className="navbar navbar-expand-lg fixed-top">
             <div className="container-fluid">
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
@@ -35,15 +35,15 @@ const Navbar = props => {
                         {/* <li className="nav-item">
                             <a className="nav-link" href="#apoyama">APÓYAME</a>
                         </li> */}
-                        {/* <li className="nav-item">
+                        <li className="nav-item">
                             <a className="nav-link" href="#hablemos">HABLÉMOS</a>
-                        </li> */}
+                        </li>
                     </ul>
-                    <ul className="navbar-nav ml-auto">
+                    {/* <ul className="navbar-nav ml-auto">
                         <li className="nav-item">
                             <Link className="nav-link1 btn btn-outline-info rounded-pill" to="/login">Login</Link>
                         </li>
-                    </ul>
+                    </ul> */}
                 </div>
             </div>
         </nav>
