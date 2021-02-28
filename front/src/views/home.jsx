@@ -1,5 +1,5 @@
 import React from 'react';
-import Form from '../components/form';
+// import Form from '../components/form';
 import AcercaDeMi from '../views/acercademi';
 import ConiPrincipal from '../img/coniprincipal.jpg'
 import Logo from '../img/logo.png'
@@ -9,6 +9,7 @@ import TrabajoConstituyente from './trabajoconstituyente';
 import Pensamiento from './pensamiento';
 import VotoSeguro from './votoseguro';
 import Terreno from './terreno';
+import Prensa from './prensa';
 
 const Home = props => {
     return (
@@ -31,6 +32,7 @@ const Home = props => {
             <Pensamiento />
             <VotoSeguro />
             <Terreno /> 
+            <Prensa />
             {/* <Form /> */}
         </div>
     );

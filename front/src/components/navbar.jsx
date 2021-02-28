@@ -26,9 +26,9 @@ const Navbar = props => {
                         <li className="nav-item">
                             <a className="nav-link" href="#terreno">EN TERRENO</a>
                         </li>
-                        {/* <li className="nav-item">
+                        <li className="nav-item">
                             <a className="nav-link" href="#prensa">PRENSA</a>
-                        </li> */}
+                        </li>
                         <li className="nav-item">
                             <a className="nav-link" href="#sigueme">SÍGUEME</a>
                         </li>
