@@ -16,9 +16,9 @@ function App() {
       <BrowserRouter>
         <Navbar />
         <Switch>
-          <Route exact path="/elmercurio" component={ElMercurio} />
-          <Route exact path="/login" component={Login} />
-          <Route exact path="/" component={Home} />
+          <Route path="/elmercurio" component={ElMercurio} />
+          <Route path="/login" component={Login} />
+          <Route path="/" component={Home} />
           <Route component={notFound} />
         </Switch>
         <Footer />
