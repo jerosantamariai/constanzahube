@@ -277,6 +277,16 @@ nav .nav-link:hover {
 
 /* ########### FIN TERRENO ########### */
 
+.elmercurio {
+    background-color: rgb(238, 238, 238);
+}
+
+.elmercuriophoto {
+    width: 100vw;
+    height: auto;
+    background-color: rgb(238, 238, 238);
+}
+
 /* ########### INICIO FOOTER ########### */
 
 footer {

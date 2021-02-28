@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import AparicionesEnPrensa from '../img/aparicionesenprensa.png';
 import Collage from '../components/prensa.jsx';
+import { Link } from 'react-router-dom';
 
 const Prensa = props => {
     const [multiplicador, setMultiplicador] = useState(1)
@@ -9,7 +10,7 @@ const Prensa = props => {
         let y = [];
         for (let i = 0; i < x; i++) {
             if (Collage[i] !== undefined)
-                y.push(<img src={Collage[i]} id="homeimg" />)
+                y.push(<Link to="/elmercurio"><img src={Collage[i]} id="homeimg" /></Link>)
 
         }
         return y;
