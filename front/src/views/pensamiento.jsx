@@ -42,7 +42,7 @@ const Pensamiento = props => {
                         <hr />
                         <img src={Piensa5} alt="piensa5" className="piensa5 mt-5" />
                         <h5 className="py-3">LIBERTAD DE ENSEÑANZA</h5>
-                        <p>Una de nuestras libertades más esenciales, la creación y el desarrollo de nuestros proyectos económicos y sociales que puedan contribuir - con nuestro propio sello y legado - a las soluciones de los problemas del Chile de hoy. Asegurar esa libertad no solo garantiza nuestra autonomía frente al Estado, también reafirma nuestro compromiso con los chilenos.</p>
+                        <p>Pensar, construir y formar una visión educativa única y comprometida con Chile es esencial para el desarrollo de personas íntegras y ciudadanos con un enfoque patrio. Además, para que puedas escoger el colegio de tus hijos, su formación y su desarrollo, como tú creas que sea lo mejor para ellos.</p>
                     </div>
                 </div>
             </div>
