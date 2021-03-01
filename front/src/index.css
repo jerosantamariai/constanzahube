@@ -24,6 +24,10 @@ body {
     padding-top: 80px;
 }
 
+.home {
+    width: 100vw;
+}
+
 /* ########### INICIO NAVBAR ########### */
 
 nav {
@@ -52,6 +56,10 @@ nav .nav-link:hover {
 
 .nav-link1 {
     font-family: kastelovblack;
+}
+
+#navbarNav {
+    background-color: rgb(238, 238, 238);
 }
 
 /* ########### FIN NAVBAR ########### */
